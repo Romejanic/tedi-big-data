@@ -1,4 +1,10 @@
-@import url("https://db.onlinewebfonts.com/c/335787aa6f57d71cabe8eb5dc89c6d6b?family=Blender+Pro");
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
 /**
  Custom CSS
 */
@@ -28,11 +34,11 @@ img.header-icon {
   background: transparent !important;
 }
 .fh5co-nav ul li.btn-cta a {
-  background: #f0d700;
+  background: #f0d700 !important;
   color: #000000 !important;
 }
 .fh5co-nav ul li.btn-cta a:hover {
-  color: #aaaaaa !important;
+  background: #fff27a !important;
 }
 .fh5co-nav ul li.btn-cta a:hover span {
   -webkit-box-shadow: none !important;
@@ -49,14 +55,57 @@ body {
   color: #fff !important;
   background: #000000 !important;
 }
-#fh5co-header .display-tc h1 {
+#fh5co-header .display-tc h1, .fh5co-heading h2 {
   color: #fff !important;
 }
 #fh5co-header .display-tc h2 {
   color: #cccccc !important;
 }
+.fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
+  background: #ffffff !important;
+}
+.btn.btn-primary {
+  background: #f0d700 !important;
+  color: #000000 !important;
+}
+#fh5co-header .display-tc .btn:hover, .fh5co-cover .display-tc .btn:hover {
+  background: #fff27a !important;
+  color: #000000 !important;
+}
+.fh5co-blog .blog-text {
+  background: #444444 !important;
+}
+.fh5co-blog .blog-text h3 a {
+  color: #ffffff !important;
+}
+a {
+  color: #f0d700 !important;
+}
+.user-frame {
+  background: white;
+}
+.form-control:active, .form-control:focus {
+  border-color: #f0d700 !important;
+}
+.md-textarea {
+  background: #444444 !important;
+  color: white !important;
+}
+.btn-primary {
+  border-color: #f0d700 !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background: #fff27a !important;
+  border-color: #fff27a !important;
+}
+.fh5co-loader {
+  filter: invert(1);
+}
+#page {
+  overflow-y: hidden;
+}
 * {
-  font-family: "Blender Pro" !important;
+  font-family: "Verdana", Verdana, sans-serif !important;
 }
 /* =======================================================
 *
@@ -408,11 +457,11 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(254, 232, 86, 0.9) !important;
   color: #000 !important;
 }
-#fh5co-header .display-tc .btn:hover, #fh5co-header .display-tc .btn:focus,
+/* #fh5co-header .display-tc .btn:hover, #fh5co-header .display-tc .btn:focus,
 .fh5co-cover .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:focus {
   color: #fff !important;
-}
+} */
 #fh5co-header .display-tc .btn.btn-demo,
 .fh5co-cover .display-tc .btn.btn-demo {
   background: #dd356e;
@@ -426,7 +475,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #DD356E !important;
+  /* background: #DD356E !important; */
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -1366,10 +1415,10 @@ input[type="text"] {
   color: #fff;
   border: 2px solid #DD356E;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+/* .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #e14b7e !important;
   border-color: #e14b7e !important;
-}
+} */
 .btn-primary.btn-outline {
   background: transparent;
   color: #DD356E;
