@@ -91,6 +91,13 @@ a {
   background: #444444 !important;
   color: white !important;
 }
+.btn-primary {
+  border-color: #f0d700 !important;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+  background: #fff27a !important;
+  border-color: #fff27a !important;
+}
 * {
   font-family: "Verdana", Verdana, sans-serif !important;
 }
@@ -1402,10 +1409,10 @@ input[type="text"] {
   color: #fff;
   border: 2px solid #DD356E;
 }
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+/* .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #e14b7e !important;
   border-color: #e14b7e !important;
-}
+} */
 .btn-primary.btn-outline {
   background: transparent;
   color: #DD356E;
