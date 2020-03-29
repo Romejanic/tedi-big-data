@@ -81,6 +81,16 @@ body {
 a {
   color: #f0d700 !important;
 }
+.user-frame {
+  background: white;
+}
+.form-control:active, .form-control:focus {
+  border-color: #f0d700 !important;
+}
+.md-textarea {
+  background: #444444 !important;
+  color: white !important;
+}
 * {
   font-family: "Verdana", Verdana, sans-serif !important;
 }
