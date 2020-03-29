@@ -98,6 +98,12 @@ a {
   background: #fff27a !important;
   border-color: #fff27a !important;
 }
+.fh5co-loader {
+  filter: invert(1);
+}
+#page {
+  overflow-y: hidden;
+}
 * {
   font-family: "Verdana", Verdana, sans-serif !important;
 }
