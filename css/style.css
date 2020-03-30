@@ -101,6 +101,20 @@ a {
 .fh5co-loader {
   filter: invert(1);
 }
+#fh5co-wireframe.content-page {
+  background: white;
+  color: black;
+}
+#fh5co-wireframe.content-page #fh5co-header .display-tc h1,
+#fh5co-wireframe.content-page .fh5co-heading h2 {
+  color: black !important;
+}
+.top-menu {
+  padding-bottom: 11px !important;
+}
+/* #fh5co-header {
+  background: white;
+} */
 #page {
   overflow-y: hidden;
 }
